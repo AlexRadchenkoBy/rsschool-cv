@@ -8,7 +8,8 @@
 I currently work as a history teacher at a provincial school. A couple of years ago, while working on a school project, I was introduced to HTML/CSS. This is how I became interested in frontend development. Lately, I've been trying to independently explore this field at a distance, with the goal of becoming a frontend developer in the future, and thus changing my career.   
 No matter how difficult it is to study, I believe that I will succeed. 
 > *The only victories that stay with us without leaving regrets are victories over ourselves.*  
-> **Napoleon Bonaparte**  
+> **Napoleon Bonaparte**
+  
 ## **My skills**  
 * Basic HTML/CSS;;
 * Some JavaScript;
