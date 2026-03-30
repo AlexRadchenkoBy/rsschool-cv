@@ -1,0 +1,161 @@
+body {
+    background: gray;
+}
+
+.container {
+    max-width: 1200px; 
+    margin-left: auto;  
+    margin-right: auto; 
+    padding: 0 20px;    
+}
+
+.nav_list {
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.nav_item {
+    margin-right: 30px;
+    color:white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
+.nav_item a {
+    display: block;
+    color: white;            
+    text-decoration: none;   
+    padding: 8px 15px;        
+    border: 2px solid transparent; 
+    border-radius: 20px;      
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;        
+}
+
+.nav_item a:hover {
+    background-color: white;  
+    color: #666a6a;           
+}
+
+.about_wrapper {
+    display: flex;
+    align-items: flex-start; 
+    gap: 40px;               
+    margin-bottom: 30px;     
+}
+
+.contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts_item {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.contacts {
+    list-style: none;
+    padding: 20px;
+    background-color: #585d5b; 
+    border: 2px dashed #e1eceb; 
+    border-radius: 10px;
+    display: inline-block; 
+    min-width: 300px;
+}
+
+.contacts_item {
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0; 
+    color: #bccbcf;
+    display: flex;
+    align-items: center;
+}
+
+.contacts_item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 18px;            
+    line-height: 1.6;          
+    color: black;               
+    margin-bottom: 15px;       
+    text-align: justify;       
+    hyphens: auto;             
+}
+
+blockquote p {
+    font-style: italic;        
+    text-align: left;        
+    color: black;
+    margin-bottom: 5px;       
+}
+
+.ul_education a {
+    color: black;
+}
+
+.ul_education a:hover {
+    color: #a2a29c;           /* Меняем цвет на желтый */
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+li {
+    font-size: 18px;
+}
+
+.example_code {
+    background-color: #585d5b;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+code {
+    color: white;
+    font-family: 'Courier New', Courier, monospace; /
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px 20px; 
+    margin-right: 30px;
+    color:white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.footer__github {
+    color: white;
+}
+
+.footer__year {
+    color: white;
+}
